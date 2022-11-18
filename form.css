@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap")
+*{
+    box-sizing: content-box;
+    
+}
+body{
+    background-image: linear-gradient(to bottom,lightblue,white);
+    background-size: cover;
+    font-family:"Roboto";
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.personal-details-bg-container-top-part{
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    
+    
+}
+.personal-details-ul-list{
+    
+    font-size :30px;
+    
+}
+.personal-details-li{
+    
+    font-size: 20px;
+    margin:20px
+    
+    
+}
+.personal-details-image{
+    height:300px;
+    border-radius:10px;
+}
+.personal-details-heading1{
+    font-size: 30px;
+}
+.personal-details-form-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.hr1{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+.star{
+    color:crimson;
+}
+#gender{
+    width:210px;
+}
+#country{
+    width:210px;
+}
+.text-para{
+    color:black;
+}
+#yearOfGraduation{
+    width:220px
+}
+.d{
+    display:none;
+
+}
